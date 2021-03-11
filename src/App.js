@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          Ruben was here! Hello mock USA!
+        </p>
       </header>
     </div>
   );
