@@ -1,28 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react'
+import Bill from './Bill'
+//<br />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>
-          Ruben was here! Hello mock USA!
-        </p>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+    render(){
+        const billDetails =
+            [{name: 'The Bill Bill'},
+            {proposedBy: 'Congressman Ruben'},
+            {text: 'Creates a cool law'},
+            {modifies: 'The Star-Royalfred'},
+            {modifiedBy: 'The Act Act'}
+        ]
+
+        return(
+            <div className="App">
+                <Bill theDeets={billDetails}/>
+            </div>
+        )
+    }
 }
 
-export default App;
+export default App
