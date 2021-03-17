@@ -11,10 +11,14 @@ class App extends React.Component{
             {modifies: 'The Star-Royalfred'},
             {modifiedBy: 'The Act Act'}
         ]
-
         return(
             <div className="App">
-                <Bill theDeets={billDetails}/>
+                <Bill 
+                    name={'The Bill Bill'}
+                    proposedBy={'Congressman Ruben of Chad'}
+                    text={'Creates a cool law'}
+                    
+                />
             </div>
         )
     }
