@@ -1,3 +1,5 @@
+# This is incredibly abandoned. The bill archive exists, but wasn't made with this.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
